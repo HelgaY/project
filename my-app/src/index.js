@@ -3,10 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //import Popper from 'popper.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import {Registration} from './App';
 import * as serviceWorker from './serviceWorker';
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Registration />, document.getElementById('root'));
 
 serviceWorker.unregister();
